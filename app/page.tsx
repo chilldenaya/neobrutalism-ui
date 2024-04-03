@@ -26,16 +26,16 @@ const cardData = [
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-left justify-between p-24 gap-12 bg-lime-100">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 gap-12 bg-lime-100">
       <h1 className="text-4xl font-bold font-mono">Neo Brutalism UI ✨</h1>
-      <div className="flex flex-col justify-center items-left">
+      <div className="flex flex-col justify-center items-center">
         <p className="text-4xl font-mono">Button</p>
         <div className="flex flex-row gap-2">
           <Button>Click Me!</Button>
           <Button>Satisfying!</Button>
         </div>
       </div>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 items-center">
         <p className="text-4xl font-mono">Card</p>
         <div className="flex flex-row items-center gap-6">
           {cardData.map((card, index) => (
