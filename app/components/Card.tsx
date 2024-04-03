@@ -9,7 +9,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, description, image }) => (
   <>
-    <div className="bg-pink-100 w-80 h-full border-black border-2 rounded-md bg-white hover-3d">
+    <div className="bg-orange-100 w-80 h-full border-black border-2 rounded-md bg-white hover-3d">
       <a className="block cursor-pointer">
         <article className="w-full h-full">
           <div className="px-6 py-5 text-left h-full">

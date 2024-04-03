@@ -12,7 +12,7 @@ const Button: React.FC<ButtonProps> = ({ onClick, disabled, children }) => {
     <button
       onClick={onClick}
       disabled={disabled}
-      className="w-[200px] hover-3d bg-lime-100 items-center rounded-lg m-2 p-2"
+      className="w-[200px] hover-3d bg-cyan-100 items-center rounded-lg m-2 p-2"
     >
       {children}
     </button>

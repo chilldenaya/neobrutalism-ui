@@ -26,7 +26,7 @@ const cardData = [
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-left justify-between p-24 gap-12">
+    <main className="flex min-h-screen flex-col items-left justify-between p-24 gap-12 bg-lime-100">
       <h1 className="text-4xl font-bold font-mono">Neo Brutalism UI ✨</h1>
       <div className="flex flex-col justify-center items-left">
         <p className="text-4xl font-mono">Button</p>
